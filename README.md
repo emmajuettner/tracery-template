@@ -6,8 +6,9 @@ as well as jquery,
 plus some js code that hooks up tracery to the 'Generate' button, a basic HTML layout, and some minimal CSS styles.
 Each time you click the 'Generate' button, it will generate a new output from the Tracery grammar.
 
-You can see the template page live [here](https://emmajuettner.com/tracery-template/). And here's [a real example]() where I've used the template
-(with some additional styles) to display my Moby Dick NaNoGenMo tracery grammar.
+You can see the template page live [here](https://emmajuettner.com/tracery-template/). 
+And here's [a real example](https://emmajuettner.com/an-expanded-meditation/) where I've customized the template
+to display my Moby Dick NaNoGenMo tracery grammar.
 
 I put this project together because I wanted to have a quick, hassle-free way to stick a Tracery grammar on a webpage
 where people can interact with it. It's mainly intended for my own use, but I figured others might find it useful as well,

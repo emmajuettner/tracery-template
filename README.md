@@ -1,17 +1,28 @@
 # Tracery Template Project
 
 This is a template for creating static webpages that generate text using a Tracery grammar.
-It includes a copy of the [minified Tracery grammar](https://github.com/galaxykate/tracery/blob/master/js/tracery.min.js)
+It includes a copy of the [minified Tracery grammar](https://github.com/galaxykate/tracery/blob/master/js/tracery.min.js),
 as well as jquery,
 plus some js code that hooks up tracery to the 'Generate' button, a basic HTML layout, and some minimal CSS styles.
-Each time you reload the page or click the 'Generate' button, it will generate a new output from the Tracery grammar.
+Each time you click the 'Generate' button, it will generate a new output from the Tracery grammar.
 
-You can see the template page live [here](). And here's [a real example]() where I've used the template
+You can see the template page live [here](https://emmajuettner.com/tracery-template/). And here's [a real example]() where I've used the template
 (with some additional styles) to display my Moby Dick NaNoGenMo tracery grammar.
 
 I put this project together because I wanted to have a quick, hassle-free way to stick a Tracery grammar on a webpage
 where people can interact with it. It's mainly intended for my own use, but I figured others might find it useful as well,
 so that's why I'm putting it up on Github. Feel free to copy and modify the template to show off your own Tracery projects!
+
+## Customizing this template
+
+This template can generate text from multiple tracery grammars. Currently there's one grammar that generates the title (title-grammar.json), 
+and another that generates the main content (main-grammar.json). You can modify them, add more, or remove one of them and just use one grammar, whatever you prefer.
+The file 'generate.js' does the work of loading the JSON from these files, turning them into tracery grammars, and creating
+text from the grammars whenever the "Generate!" button is pressed.
+
+You can change the structure of the page and remove/modify the explanatory text box in index.html, or change the styles in styles.css.
+
+This is a static site that can be hosted on Github Pages or any other tool that can host static webpages.
 
 ## License
 

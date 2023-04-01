@@ -1,0 +1,6 @@
+{
+	"color": ["crimson","golden","bronze","magenta","silver","cerulean","translucent"],
+	"shape": ["pointed","triangular","spiky","rounded","smooth","serrated"],
+	"hoardObject": ["book","gem","kitten","hat","chair","blanket"],
+	"origin": ["A dragon with #shape# #color# scales who sits on a hoard of #hoardObject.s#."]
+}

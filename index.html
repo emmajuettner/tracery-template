@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tracery Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- import minified jquery lib -->
+    <script defer src="jquery.js"></script>
+    <!-- import minified tracery lib -->
+	<script defer src="tracery.min.js"></script>
+	<!-- import our own code for generating text -->
+	<script defer src="generate.js"></script>
+</head>
+<body>
+	<aside>
+		<p>This is an example of how you can put a Tracery project on a website, for people to interact with.
+		I made this template project because I wanted a simple starting point for displaying Tracery projects.
+		Maybe you will find it useful too!
+		You can review the code in the <a href="#">github repo</a>.</p>
+		<p>A caveat: I know only enough javascript to slap things together with duct tape,
+		so it's very probable that there are better ways to put this logic together.
+		Feel free to suggest improvements or use this as a jumping-off point to implement something better!</p>
+		<p>This example uses a very simple set of tracery grammars that generate a description of a dragon.
+		Click the button below to generate a dragon.</p>
+		<button onclick="reloadTraceryElements()">Generate!</button>
+	</aside>
+	<main>
+		<div id="tracery-title"></div>
+		<div id="tracery-main"></div>
+	</main>
+</body>
+</html>
